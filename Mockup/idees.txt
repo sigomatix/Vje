@@ -1,0 +1,16 @@
+http://www.zinruss.com/wordpress-themes-preview/: séparation des sections
+
+texture de fond
+http://wordpress.org/extend/themes/responsive: 
+http://wordpress.org/extend/themes/business-lite
+
+séparateurs
+http://wordpress.org/extend/themes/easel: element blog post + séparation post et titre avec les pointillés
+http://wordpress.org/extend/themes/evolve
+
+Format des posts: cadres + options sociales
+http://wordpress.org/extend/themes/news
+http://wordpress.org/extend/themes/zbench
+
+Expand ideas
+http://wordpress.org/extend/themes/minimatica

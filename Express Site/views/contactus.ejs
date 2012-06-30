@@ -1,0 +1,12 @@
+
+<form id="sendMessageForm" data-bind="submit: submit, visible:!messageSent()">
+    <label for="senderEmail">Votre adresse email:</label>
+    <input id="senderEmail" name="senderEmail" data-bind="value: senderEmail, validationElement: senderEmail"></input>*
+    <label for="message">Votre message:</label>
+    <textarea id="message" name="message" data-bind="value: message"></textarea>
+    <input type="submit" value="Envoyer"></input>
+</form>
+<div id="messageSentNotification" style="display:none">
+    Merci pour votre message, nous entrerons en contact avec vous dès que possible !
+</div>
+

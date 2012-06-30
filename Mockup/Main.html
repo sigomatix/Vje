@@ -1,0 +1,90 @@
+<html>
+<head title="Template">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/layout.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/theme.css">
+
+    <script type="text/javascript" src="http://requirejs.org/docs/release/2.0.1/minified/require.js"></script>
+    <script type="text/javascript">
+
+        requirejs.config({
+            baseUrl: 'Scripts/Modules'
+        });
+
+        require(["AppModuleLoader"]);
+    </script>
+</head>
+<body>
+    <div id="BannerBand">
+        <div id="Banner">
+            <div id="logo">&nbsp;</div>
+        </div>
+    </div>
+    <div id="ContentBand">
+        <div id="Content">
+            <div id="SelectedMenu">
+                <div id="MenuIcon"><img src="img/house.png"/>
+                </div>
+                <div id="MenuDescription">
+                <h1>Notre Église</h1>
+                    <p>
+                        Toutes les informations concernant notre église</p>
+                </div>
+            </div><div id="MenuContent"> <!-- DYNAMIC CONTENT -->
+                <ul id="Menu" data-bind="foreach: Modules">
+                    <li data-bind="text: Description, click:onStartModule"></li>
+                </ul>
+                <div id="ApplicationRoot"></div>
+            </div>
+        </div>
+    </div>
+    <div id="FooterBand">
+        <div id="Footer">
+            <div class="Column">
+                <ul>
+                    <li>Royaume-Uni
+                        <ul>
+                            <li><a href="#">Londres</a></li>
+                        </ul>
+                    </li>
+                    <li>Canada
+                        <ul>
+                            <li><a href="#">Montreal</a></li>
+                        </ul>
+                    </li>
+                    <li>Etats-Unis
+                        <ul>
+                            <li><a href="#">Chicago</a></li>
+                            <li><a href="#">Dallas</a></li>
+                            <li><a href="#">Elizabeth</a></li>
+                            <li><a href="#">Houston</a></li>
+                            <li><a href="#">Irvine Campus</a></li>
+                            <li><a href="#">Princeton Université</a></li>
+                            <li><a href="#">Rutger Campus</a></li>
+                        </ul>
+                    </li>
+                    <li>Chine
+                        <ul>
+                            <li><a href="#">Hong Kong</a></li>
+                            <li><a href="#">Singapour</a></li>
+                            <li><a href="#">Songshan</a></li>
+                            <li><a href="#">Tainan</a></li>
+                            <li><a href="#">Taïpeï</a></li>
+                        </ul>
+                    </li>
+                    <li>Japon
+                        <ul>
+                            <li><a href="#">Osaka</a></li>
+                            <li><a href="#">Tokio</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><div class="Column">
+                Links
+            </div><div class="Column">
+                Links
+            </div>
+        </div>
+    </div>
+</body>
+</html>

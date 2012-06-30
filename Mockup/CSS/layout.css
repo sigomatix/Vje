@@ -1,0 +1,83 @@
+#BannerBand, #ContentBand, #FooterBand,
+{
+    width:100%;
+}
+
+#ContentBand
+{
+    padding:20px;
+}
+
+#Banner
+{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SelectedMenu
+{
+    width:140px;
+    padding: 10px;
+    vertical-align:top;
+    display:inline-block;
+}
+
+#Content
+{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MenuContent
+{
+    display:inline-block;
+    width:800px;
+}
+
+#ArticleViewer
+{
+}
+
+#Menu
+{
+    width:800px;
+}
+
+#Menu li
+{
+    display:inline-block;
+}
+
+#Article
+{
+    text-align:justify;
+    padding:20px;
+    width:600px;
+    border-width:5px;
+    display:inline-block;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+#Navigation
+{
+    width:150px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+
+#Footer
+{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Column
+{
+    width: 320px;
+    height: 150px;
+    display:inline-block;
+}

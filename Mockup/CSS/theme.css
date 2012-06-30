@@ -1,0 +1,136 @@
+body
+{
+	font-family: Arial;
+	background-color: #2c6580;
+	background-image:url(../img/patternfond.png);
+}
+
+#ContentBand
+{
+	background-color: #2c6580;
+	background-image:url(../img/patternfondcontent.png);	
+}
+
+#Article
+{
+	background-color:white;
+	border-color:#2d6681;
+	border-style:solid;
+}
+
+#Article h1
+{
+	display:block;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#Article h2
+{
+	display:block;
+	margin-bottom:5px;
+	font-style:italic;
+}
+
+#Article p
+{
+	display:block;
+	margin-bottom:10px;
+	margin-left:25px;
+	text-indent:50px;
+}
+
+#Article ol
+{
+	list-style-type: lower-alpha;
+}
+
+#Article cite
+{
+	font-style:italic;
+	background-color:#ffdfb1;
+}
+
+#Article dfn
+{
+	font-weight:bold;
+	font-size:0.8em;
+}
+
+#ArticleViewer
+{
+	margin-top:50px;
+}
+
+#ArticleViewer #Navigation ol a
+{
+	color:white;
+	font-size:0.8em;
+	text-decoration:none;
+}
+
+#ArticleViewer #Navigation ol a:hover
+{
+	text-decoration:underline;
+}
+
+#ArticleViewer #Navigation > ol > li
+{
+	margin-bottom:10px;
+}
+
+#ArticleViewer #Navigation > ol > li > ol > li
+{
+	margin-left:10px;
+}
+
+#SelectedMenu h1
+{
+	color:white;
+	font-size:1.6em;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+#SelectedMenu p
+{
+	color:white;
+	font-size:0.8em;
+	text-align:center;
+}
+
+#SelectedMenu img
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#FooterBand
+{
+	border-top-style:solid;
+	border-top-width:8px;
+	border-top-color:#1a4357;
+}
+
+#BannerBand
+{
+	height:180px;
+	background-image:url(../img/patternfondbanner.png);	
+	border-bottom-style:solid;
+	border-bottom-width:8px;
+	border-bottom-color:#1a4357;
+}
+
+#Banner
+{
+	height:100%;
+}
+
+#Banner #logo
+{
+	background-image:url(../img/vjelogo.png);
+	width:181px;
+	height:115px;
+	margin-top:auto;
+	margin-bottom:auto;
+}

@@ -1,0 +1,14 @@
+<div id="ArticleViewer">
+    <div id="Navigation">
+        <ol data-bind="foreach: nodes">
+            <li>
+                <a href="#" data-bind="text: name, click: onNodeClicked"></a>
+                <ol data-bind="foreach: nodes">
+                    <li>
+                        <a href="#" data-bind="text: name, click: onNodeClicked"></a>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div><div id="Article" data-bind="html: article"></div>
+</div>
