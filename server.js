@@ -29,6 +29,7 @@ app.configure('production', function(){
 // Routes
 require('./routes/index')(app);
 require('./routes/contactus')(app);
+require('./routes/postnews')(app);
 
 app.listen(process.env.PORT || 4000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
