@@ -1,6 +1,8 @@
 All news !
 <%news.forEach(function(n){%>
 	<div>
-		<%-n%>
+		<div><%-n.title%></div>
+		<div><%-n.date.toDateString()%></div>
+		<div><%-n.post%></div>
 	</div>
 <%});%>
