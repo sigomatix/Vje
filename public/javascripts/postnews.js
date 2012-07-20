@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $("#input").cleditor();
+    $("#post").cleditor();
 });
