@@ -1,0 +1,8 @@
+<h1>All news !</h1>
+<%news.forEach(function(n){%>
+	<div class="row">
+		<h2><%-n.title%></h2>
+		<h3><%-n.date.toDateString()%></h3>
+		<p><%-n.post%></p>
+	</div>
+<%});%>

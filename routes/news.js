@@ -13,11 +13,11 @@ module.exports = function(app) {
 	}];
 
 	app.get('/allnews', function(req, res) {
-        res.render("allnews", {news:news});
+        res.render("news/allnews", {news:news});
     });
 
     app.get('/postnews', function(req, res) {
-        res.render("postnews");
+        res.render("news/postnews");
     });
 
     app.post('/postnews', function(req, res, next) {
